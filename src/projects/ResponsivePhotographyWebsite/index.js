@@ -7,10 +7,9 @@ const ResponsivePhotographyWebsite = () => {
     }, []);
     return (
         <>
-            Photography
             <section className={styles.intro}>
                 <nav>
-                    <a href="#" className={styles.menuIcon}>#</a>
+                    <a href="#" className={styles.menuIcon}></a>
                     <ul>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#port">Portfolio</a></li>
@@ -27,7 +26,7 @@ const ResponsivePhotographyWebsite = () => {
             </section>
 
             <a name="about"/>
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <section className={styles.leftCol}>
                 <h2>About Me</h2>
                 <p className={styles.textIndent}>I am so grateful for each and every experience that life has had to
@@ -40,7 +39,7 @@ const ResponsivePhotographyWebsite = () => {
                 <img src="https://static.pexels.com/photos/50567/girl-female-model-pretty-50567.jpeg" alt=""/>
             </section>
 
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <a name="port"/>
             <h2>My Portfolio</h2>
             <section className={styles.oneThirdPort}>
@@ -74,7 +73,7 @@ const ResponsivePhotographyWebsite = () => {
                 </a>
             </section>
 
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <a name="serv"/>
             <section className={styles.leftCol}>
                 <h2>My Services</h2>
@@ -88,36 +87,37 @@ const ResponsivePhotographyWebsite = () => {
             <section className={styles.sidebar}>
                 <section className={styles.contact}>
                     <p>
-                        Wedding Portraits<br className={styles.break}/>
-                        Engagements<br className={styles.break}/>
-                        Social Events<br className={styles.break}/>
-                        Artistic Modeling<br className={styles.break}/>
-                        School Photos<br className={styles.break}/>
+                        Wedding <br className={styles.break}/>
+                        Portraits <br className={styles.break}/>
+                        Engagements <br className={styles.break}/>
+                        Social Events <br className={styles.break}/>
+                        Artistic Modeling <br className={styles.break}/>
+                        School Photos <br className={styles.break}/>
                         Family Portraits
                     </p>
                 </section>
             </section>
             
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <a name="contact"/>
             <section className={styles.parallax}>
-                <div className="parallaxInner">
+                <div className={styles.parallaxInner}>
                 </div>
             </section>
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <h2>Contact Me</h2>
             <section className={styles.contact}>
                 <p>My Name <br className={styles.break}/> <a href="mailto:me@photography.com">me@photography.com</a> <br className={styles.break}/>1-800-888-8888</p>
                 <p>1000 Street <br className={styles.break}/>Road My City <br className={styles.break}/>State 19000</p>
             </section>
-            <div className={styles.clearFix}/>
+            <div className={styles.clearfix}/>
             <footer>
                 <ul className={styles.social}>
-                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.google.com" target="_blank"><i className="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://twitter.com/home" target="_blank"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i className="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"></i></a></li>
                 </ul>
 
             </footer>

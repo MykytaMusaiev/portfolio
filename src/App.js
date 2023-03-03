@@ -1,9 +1,10 @@
-import {PluralSightLoginClone} from "./projects";
+import {PluralSightLoginClone, ResponsivePhotographyWebsite} from "./projects";
 
 function App() {
   return (
       <>
-          <PluralSightLoginClone/>
+          <ResponsivePhotographyWebsite/>
+          {/*<PluralSightLoginClone/>*/}
       </>
   );
 }

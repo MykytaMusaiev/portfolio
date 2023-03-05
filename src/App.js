@@ -1,9 +1,11 @@
-import {PluralSightLoginClone} from "./projects";
+import {PluralSightLoginClone, ResponsivePhotographyWebsite} from "./projects";
 
 function App() {
   return (
       <>
-          <PluralSightLoginClone/>
+          {/*TODO: jkvTRBrP_ make routing system*/}
+          <ResponsivePhotographyWebsite/>
+          {/*<PluralSightLoginClone/>*/}
       </>
   );
 }

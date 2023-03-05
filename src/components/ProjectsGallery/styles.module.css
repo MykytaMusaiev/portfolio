@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h2{
+    font-family: 'Raleway', serif;
+    font-size: 222%;
+}
+.sectionWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singleProject{
+    margin: 1%;
+    max-width: 20%;
+    max-height: 20%;
+
+    box-shadow: 0 0 50px #ccc;
+    border-radius: 3%;
+}
+
+.link{
+    text-decoration: none;
+}
+.textDescription{
+    max-width: 80%;
+    font-family: 'Raleway', serif;
+    font-size: 125%;
+    text-align: center;
+    color: #2c2c2c;
+    margin:0 auto;
+}
+
+.singleProject img{
+    border-radius: 5%;
+}
+
+.singleProject img:hover{
+    opacity: .75;
+}
+
+.clearfix{
+    clear: both;
+    height: 3%;
+}
+
+@media screen and ( max-width: 768px){
+    .singleProject{
+        max-width: 90%;
+        max-height: 90%;
+        /*box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);*/
+        box-shadow: 0 0 50px #ccc;
+        border-radius: 2%;
+    }
+    .textDescription{
+        margin:0 auto;
+    }
+}
+

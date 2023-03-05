@@ -1,5 +1,6 @@
 import {useEffect} from "react";
 import style from "./style.module.css"
+import {BackToHomeArrow} from "../../components";
 
 const PluralSightLoginClone = () => {
     useEffect(() => {
@@ -7,6 +8,7 @@ const PluralSightLoginClone = () => {
     }, []);
     return (
         <div className={style.wrapper}>
+            <BackToHomeArrow/>
             <div className={style.left}>
                 <div className={style.signIn}>
                     <div className={style.signLogo}>

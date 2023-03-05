@@ -1,0 +1,17 @@
+.backIcon{
+    color: white;
+    font-size: 300%;
+    position: absolute;
+    left: 0;
+}
+
+.backIcon:hover {
+    color: #5585b5
+}
+
+@media screen  and (max-width: 768px){
+    /* TODO: add mobile support*/
+    .backIcon{
+        font-size: 175%;
+    }
+}

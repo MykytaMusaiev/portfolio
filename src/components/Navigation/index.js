@@ -1,16 +1,18 @@
 import {Link} from "react-router-dom";
-import {useState} from "react";
+import s from "./styles.module.css"
 
 const Navigation = () => {
-    const [homePage, setHomePage] = useState(false);
     return (
         <>
-            <div>
+            <div className={s.navBar}>
                 <Link to="/">
-                    <button>1</button>
+                    <button>homepage</button>
                 </Link>
                 <Link to="/sluralpright">
                     <button>2</button>
+                </Link>
+                <Link to="/photography">
+                    <button>3</button>
                 </Link>
             </div>
         </>

@@ -1,5 +1,6 @@
 import styles from "./styles.module.css"
 import {useEffect} from "react";
+import {BackToHomeArrow} from "../../components";
 
 const ResponsivePhotographyWebsite = () => {
     useEffect(() => {
@@ -8,6 +9,7 @@ const ResponsivePhotographyWebsite = () => {
     return (
         <>
             <section className={styles.intro}>
+                <BackToHomeArrow/>
                 <nav>
                     <a href="#" className={styles.menuIcon}></a>
                     <ul>

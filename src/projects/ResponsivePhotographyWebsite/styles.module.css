@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
-
-h2 {
+.photographyGlobal h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    padding: 2% 0 0;
+    text-shadow: 0 0 250px #000;
+}
+.photographyGlobal h2 {
     font-family: 'Playfair Display', serif;
     font-size: 200%;
     font-weight: 700;
@@ -11,7 +19,7 @@ h2 {
     text-decoration: underline;
 }
 
-p {
+.photographyGlobal p {
     font-family: 'Raleway', serif;
     color: #2c2c2c;
     font-size: 140%;
@@ -20,7 +28,7 @@ p {
     font-weight: 300;
 }
 
-img {
+.photographyGlobal img {
     text-align: center;
     max-width: 100%;
     height: auto;
@@ -48,16 +56,6 @@ img {
     margin: auto;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 300%;
-    font-weight: 700;
-    color: #FFF;
-    text-align: center;
-    padding: 2% 0 0;
-    text-shadow: 0 0 250px #000;
-}
-
 .content p {
     color: #fff;
 }
@@ -75,32 +73,32 @@ h1 {
 }
 
 /* --- Start Nav --- */
-nav {
+.navBar {
     float: left;
     padding: 5% 5% 0 0;
     height: 50px;
 }
 
-nav ul {
+.navBar ul {
     list-style: none;
     float: left;
 }
 
-nav ul li {
+.navBar ul li {
     font-family: 'Raleway', sans-serif;
     font-size: 120%;
 }
 
-nav ul li a {
+.navBar ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:hover {
+.navBar ul li a:hover {
     text-decoration: underline;
 }
 
-nav ul, nav:active ul {
+.navBar ul, .navBar:active ul {
     display: none;
     padding: 8px 0;
     width: 20%;
@@ -109,13 +107,13 @@ nav ul, nav:active ul {
     top: 60px;
 }
 
-nav li {
+.navBar li {
     width: 100%;
     padding: 8px 0 10px 7px;
     margin: 0;
 }
 
-nav:hover ul {
+.navBar:hover ul {
     display: block;
     position: absolute;
 }
@@ -216,7 +214,7 @@ nav:hover ul {
     .menuIcon{
         margin: 26px 0 0 26px;
     }
-    nav ul, nav:active ul {
+    .navBar ul, .navBar:active ul {
         padding: 8px 0;
         left: 23px;
         top: 34px;

@@ -1,6 +1,6 @@
 import {createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
 import App from "../App"
-import {PluralSightLoginClone, ResponsivePhotographyWebsite} from "../projects";
+import {Eduford, PluralSightLoginClone, ResponsivePhotographyWebsite} from "../projects";
 
 const NavWrapper = () => {
     return(
@@ -27,6 +27,11 @@ const router = createBrowserRouter([
             {
                 path: "/photography",
                 element: <ResponsivePhotographyWebsite/>,
+                errorElement: <h2>ERROR lenk</h2>
+            },,
+            {
+                path: "/eduford",
+                element: <Eduford/>,
                 errorElement: <h2>ERROR lenk</h2>
             },
         ],

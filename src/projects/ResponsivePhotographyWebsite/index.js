@@ -7,11 +7,11 @@ const ResponsivePhotographyWebsite = () => {
         document.title = 'Photography';
     }, []);
     return (
-        <>
+        <div className={styles.photographyGlobal}>
             <section className={styles.intro}>
                 <BackToHomeArrow/>
-                <nav>
-                    <a href="#" className={styles.menuIcon}></a>
+                <nav className={styles.navBar}>
+                    <a href="#" className={styles.menuIcon}/>
                     <ul>
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#port">Portfolio</a></li>
@@ -115,18 +115,18 @@ const ResponsivePhotographyWebsite = () => {
             <div className={styles.clearfix}/>
             <footer>
                 <ul className={styles.social}>
-                    <li><a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.google.com" target="_blank"><i className="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://twitter.com/home" target="_blank"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank"><i className="fa fa-youtube"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook"/></a></li>
+                    <li><a href="https://www.google.com" target="_blank"><i className="fa fa-google-plus"/></a></li>
+                    <li><a href="https://twitter.com/home" target="_blank"><i className="fa fa-twitter"/></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i className="fa fa-youtube"/></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i className="fa fa-instagram"/></a></li>
                 </ul>
 
             </footer>
             <footer className={styles.secondFooter}>
                 <p>&copy; Photography.</p>
             </footer>
-        </>
+        </div>
     );
 };
 export default ResponsivePhotographyWebsite;

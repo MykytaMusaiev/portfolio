@@ -24,7 +24,7 @@ const ProjectsGallery = () => {
 
                 <div className={s.singleProject}>
                     <Link to="/eduford" className={s.link}>
-                        <img src={require("./img/proto_preview.jpg")} alt="Education university"/>
+                        <img src={require("./img/edu_preview.jpg")} alt="Education university"/>
                         <p className={s.textDescription}>Education university</p>
                     </Link>
                 </div>

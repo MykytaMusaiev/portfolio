@@ -34,6 +34,11 @@ const router = createBrowserRouter([
                 errorElement: <h2>rwong lenk</h2>
             },
             {
+                path: "/portfolio",
+                element: <App/>,
+                errorElement: <h2>rwong lenk</h2>
+            },
+            {
                 path: "sluralpright",
                 element: <PluralSightLoginClone/>,
                 errorElement: <h2>rwong lenk</h2>

@@ -1,0 +1,23 @@
+/*--- footer ---*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer h4{
+    margin: 1.4rem 0 1.5rem 0;
+    font-weight: 600;
+}
+.footerIconsWrapper .icon{
+    color: #f44346;
+    margin: 0 0.9rem;
+    cursor: pointer;
+    padding: 1rem 0;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 700px){
+    .footer{
+        width: 80%;
+    }
+}

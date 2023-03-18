@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
-h2{
+.projGalleryGlobal h2{
     font-family: 'Raleway', serif;
     font-size: 222%;
+    font-weight: 700;
+    color: #2c2c2c;
+    text-align: center;
+    text-decoration: underline;
 }
 .sectionWrapper{
     display: flex;
@@ -10,13 +15,20 @@ h2{
     justify-content: center;
 }
 
+.projGalleryGlobal  img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 .singleProject{
     margin: 1%;
     max-width: 20%;
     max-height: 20%;
-
     box-shadow: 0 0 50px #ccc;
     border-radius: 3%;
+    padding-bottom: 5px;
 }
 
 .link{

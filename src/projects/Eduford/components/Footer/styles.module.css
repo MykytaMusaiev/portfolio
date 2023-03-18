@@ -15,3 +15,9 @@
     padding: 1rem 0;
     font-size: 200%;
 }
+
+@media screen and (max-width: 700px){
+    .footer{
+        width: 80%;
+    }
+}

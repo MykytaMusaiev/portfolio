@@ -32,7 +32,7 @@ const ProjectsGallery = () => {
             </section>
 
             <div className="clearfix"/>
-            <h2>Apps</h2>
+            {/*<h2>Apps</h2>*/}
             <section>
 
             </section>

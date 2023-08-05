@@ -24,8 +24,8 @@
 
 .singleProject{
     margin: 1%;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 17.5%;
+    max-height: 17.5%;
     box-shadow: 0 0 50px #ccc;
     border-radius: 3%;
     padding-bottom: 5px;
@@ -45,6 +45,7 @@
 
 .singleProject img{
     border-radius: 5%;
+    
 }
 
 .singleProject img:hover{
@@ -54,6 +55,10 @@
 .clearfix{
     clear: both;
     height: 3%;
+}
+
+.header{
+    margin: 0.25rem 0 0.5rem 0;
 }
 
 @media screen and ( max-width: 768px){

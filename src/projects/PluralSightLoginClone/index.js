@@ -23,7 +23,7 @@ const PluralSightLoginClone = () => {
                             <label htmlFor="passwordInput" className={style.signLabel}>password</label>
                             <input type="password" className={style.signInput} id="passwordInput"/>
                         </div>
-                        <button type="submit" className={[style.primaryBtn, style.signBtn].join(' ')}>Sigh In</button>
+                        <button disabled className={[style.primaryBtn, style.signBtn].join(' ')}>Sign In</button>
                     </form>
 
                     <div className={style.links}>

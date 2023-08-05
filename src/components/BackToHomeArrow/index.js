@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 
 const BackToHomeArrow = () => {
     return (
-        <Link to="/">
+        <Link to="/portfolio">
             <i className={["fa fa-arrow-left", styles.backIcon].join(' ')} aria-hidden="true"></i>
         </Link>
     )
